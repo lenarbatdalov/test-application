@@ -1,0 +1,10 @@
+default: HOMEPAGE
+
+admin:
+  template: index
+  id: INT
+  name: STRING
+
+about: ABOUT
+
+contacts: CONTACTS

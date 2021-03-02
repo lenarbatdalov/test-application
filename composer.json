@@ -1,0 +1,20 @@
+{
+    "name": "lenar/projects",
+    "description": "",
+    "authors": [
+        {
+            "name": "Lenar Batdalov",
+            "email": "developer.lenar@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Kernel\\": "Kernel/",
+            "App\\": "src/"
+        }
+    },
+    "require": {
+        "symfony/yaml": "^5.2",
+        "twig/twig": "^3.0"
+    }
+}

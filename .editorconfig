@@ -1,0 +1,28 @@
+# Данный файл должен быть расположен в корне проекта
+# задает приоритет файла над остальными в иерархии каталогов
+root = true
+
+# Также можно расположить и в конкретных каталогах, об этом подробнее
+# https://docs.microsoft.com/ru-ru/visualstudio/ide/create-portable-custom-editor-options?view=vs-2019#file-hierarchy-and-precedence
+
+# Плагин для IDE
+# VSCode https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig
+# PhpStorm https://plugins.jetbrains.com/plugin/7294-editorconfig/
+# SublimeText https://github.com/sindresorhus/editorconfig-sublime#readme
+
+# Для GitLab плагин не требуется
+# https://docs.gitlab.com/ee/user/project/web_ide/index.html#configure-the-web-ide
+
+# Данный блок настроек касается всех файлов
+[*]
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
+charset = utf-8
+indent_style = space
+indent_size = 4
+
+# Этот блок задает параметры конкретно для файлов с расширением .tpl
+# [*.tpl]
+# indent_style = space
+# indent_size = 2
